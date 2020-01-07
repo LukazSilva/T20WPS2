@@ -29,11 +29,11 @@
 				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 			</ul>
 			<ul class="givusacall">
-				<li>Give us a call : +66666666</li>
+				<li>Entre em contato : +66666666</li>
 			</ul>
 			<ul class="logreg">
-				<li><a href="#">Login </a></li>
-				<li><a href="#"><span class="register">Register</span></a></li>
+				<li><a href="#">LOGIN </a></li>
+				<li><a href="#"><span class="register">CADASTRAR</span></a></li>
 			</ul>
 		</div>
 		<!-- Navbar Up -->
@@ -53,24 +53,24 @@
 			</div>
 			<div class="collapse navbar-collapse" id="upmenu">
 				<ul class="nav navbar-nav" id="navbarontop">
-					<li class="active"><a href="#">HOME</a></li>
+					<li class="active"><a href="#">INICIO</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+						aria-expanded="false">CATEGORIAS <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdowncostume">
-							<li><a href="#">Sport</a></li>
-							<li><a href="#">Old</a></li>
-							<li><a href="#">New</a></li>
+							<li><a href="#">Esportivos</a></li>
+							<li><a href="#">Antigos</a></li>
+							<li><a href="#">Novos</a></li>
 						</ul></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">DEALERS <span class="caret"></span></a>
+						aria-expanded="false">REVENDEDORES <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdowncostume">
 							<li><a href="#">1</a></li>
 							<li><a href="#">2</a></li>
 							<li><a href="3">3</a></li>
 						</ul></li>
-					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="contact.html">CONTATO</a></li>
 					<button>
 						<span class="postnewcar">POST NEW CAR</span>
 					</button>
@@ -126,48 +126,48 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbarmidle">
 					<div class="searchtxt">
-						<h1>SEARCH TEXT</h1>
+						<h1>BUSCA:</h1>
 					</div>
 					<form class="navbar-form navbar-left searchformmargin"
 						role="search">
 						<div class="form-group">
 							<input type="text" class="form-control searchform"
-								placeholder="Enter Keyword">
+								placeholder="Palavra-chave">
 						</div>
 					</form>
 					<ul class="nav navbar-nav navbarborder">
 						<li class="li-category"><a
 							class="btn  dropdown-toggle btn-costume" id="dropdownMenu1"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Category<span
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CATEGORIAS<span
 								class="glyphicon glyphicon-chevron-down downicon"></span></a>
 							<ul class="dropdown-menu" id="mydd">
-								<li><a href="#">Epic</a></li>
-								<li><a href="#">Old</a></li>
-								<li><a href="#">New</a></li>
+								<li><a href="#">ÉPICO</a></li>
+								<li><a href="#">ANTIGO</a></li>
+								<li><a href="#">NOVO</a></li>
 							</ul></li>
 						<li class="li-minyear"><a
 							class="btn  dropdown-toggle btn-costume" id="dropdownMenu2"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Min
-								Year <span class="glyphicon glyphicon-chevron-down downicon"></span>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Ano
+								mínimo <span class="glyphicon glyphicon-chevron-down downicon"></span>
 						</a>
 							<ul class="dropdown-menu" id="mydd2">
-								<li><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
+								<li><a href="#">1900</a></li>
+								<li><a href="#">2000</a></li>
+								<li><a href="#">2020</a></li>
 							</ul></li>
 						<li class="li-maxyear"><a
 							class="btn dropdown-toggle btn-costume" id="dropdownMenu3"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Max
-								Year <span class="glyphicon glyphicon-chevron-down downicon"></span>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Ano
+								Máximo <span class="glyphicon glyphicon-chevron-down downicon"></span>
 						</a>
 							<ul class="dropdown-menu" id="mydd3">
 								<li><a href="#">1900</a></li>
 								<li><a href="#">2000</a></li>
-								<li><a href="#">2016</a></li>
+								<li><a href="#">2020</a></li>
 							</ul></li>
 						<li class="li-slideprice">
 							<p>
-								<label class="slidertxt" for="amount">Price </label> <input
+								<label class="slidertxt" for="amount">Preço </label> <input
 									class="priceslider" type="text" id="amount" readonly="readonly">
 							</p>
 							<div id="slider-range"></div>
@@ -262,18 +262,18 @@
 		<div class="latestcars">
 			<h1 class="text-center">&bullet; LATEST CARS &bullet;</h1>
 			<ul class="nav nav-tabs navbar-left latest-navleft">
-				<li role="presentation" class="li-sortby"><span class="sortby">SORT
-						BY: </span></li>
+				<li role="presentation" class="li-sortby"><span class="sortby">ORDENAR
+						POR: </span></li>
 				<li data-filter=".RECENT" role="presentation"><a
-					href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
+					href="#mostrecent" class="prcBtnR">MAIS RECENTE </a></li>
 				<li data-filter=".POPULAR" role="presentation"><a
-					href="#mostpopular" class="prcBtnR">MOST POPULAR </a></li>
-				<li role="presentation"><a href="#" class="alphSort">ALPHABETICAL
-				</a></li>
+					href="#mostpopular" class="prcBtnR">MAIS POPULAR </a></li>
+				<li role="presentation"><a href="#" class="alphSort">ORDEM
+						ALFABÉTICA </a></li>
 				<li data-filter=".HPRICE" role="presentation"><a href="#"
-					class="prcBtnH">HIGHEST PRICE </a></li>
+					class="prcBtnH">MAIS CARO </a></li>
 				<li data-filter=".LPRICE" role="presentation"><a href="#"
-					class="prcBtnL">LOWEST PRICE </a></li>
+					class="prcBtnL">MAIS BARATO </a></li>
 				<li id="hideonmobile">
 			</ul>
 		</div>
@@ -597,8 +597,7 @@
 					class="dotlogo">&bullet;;</span>
 			</div>
 			<ul class="nav nav-tabs bottomlinks">
-				<li role="presentation"><a href="#/" role="button">ABOUT
-						US</a></li>
+				<li role="presentation"><a href="#/" role="button">ABOUT US</a></li>
 				<li role="presentation"><a href="#/">CATEGORIES</a></li>
 				<li role="presentation"><a href="#/">PREORDERS</a></li>
 				<li role="presentation"><a href="#/">CONTACT US</a></li>
