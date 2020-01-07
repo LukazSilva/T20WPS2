@@ -207,7 +207,7 @@
 									eiusmod tempor incididunt
 								</p>
 								<h2>Price &euro;</h2>
-								<button id="btnRM" onclick="rmtxt()">READ MORE</button>
+								<button id="btnRM" onclick="rmtxt()">VEJA MAIS</button>
 								<div id="readmore">
 									<h1>Car Name</h1>
 									<p>
@@ -219,7 +219,7 @@
 										consectetur1 sed do eiusmod tempor incididunt"Lorem ipsum
 										dolor sit amet, consectetur1<br>
 									</p>
-									<button id="btnRL">READ LESS</button>
+									<button id="btnRL">ALUGAR</button>
 								</div>
 							</div>
 						</div>
@@ -238,7 +238,7 @@
 									eiusmod tempor incididunt
 								</p>
 								<h2>Price &euro;</h2>
-								<button id="btnRM2">READ MORE</button>
+								<button id="btnRM2">VEJA MAIS</button>
 								<div id="readmore2">
 									<h1>Car Name</h1>
 									<p>
@@ -250,7 +250,7 @@
 										consectetur1 sed do eiusmod tempor incididunt"Lorem ipsum
 										dolor sit amet, consectetur1<br>
 									</p>
-									<button id="btnRL2">READ LESS</button>
+									<button id="btnRL2">ALUGAR</button>
 								</div>
 							</div>
 						</div>
