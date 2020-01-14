@@ -3,27 +3,25 @@ package org.itstep.aluguel.model;
 import java.util.Date;
 
 public class PessoaFisica extends Pessoa {
-	
-	private Date dtNascimento;
-	private String sexo;
+    //Atributo
+	private Date                  dtNascimento;
+	private String                sexo;
 	private DocumentoPessoaFisica documentoPessoaFisica;
-	
 
+	//Getter and Setter
 	public Date getDtNascimento() {
 		return dtNascimento;
 	}
 	public void setDtNascimento(Date dtNascimento) {
 		this.dtNascimento = dtNascimento;
 	}
-	
-	
+
 	public String getSexo() {
 		return sexo;
 	}
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-	
 	
 	public DocumentoPessoaFisica getDocumentoPessoaFisica() {
 		return documentoPessoaFisica;
@@ -39,10 +37,13 @@ public class PessoaFisica extends Pessoa {
 		return null;
 	}
 	@Override
-	public String conerteData(Date data) {
+	public String converteData(Date data) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 	
-
+	
+	
+	
+	
 }

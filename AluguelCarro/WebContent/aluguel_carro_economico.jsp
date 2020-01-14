@@ -8,7 +8,7 @@
 </head>
 <body>
 
-vamos construir esta página....
+
 
 </body>
 </html>

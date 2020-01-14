@@ -206,10 +206,10 @@
 									"Lorem ipsum dolor sit amet, consectetur ,<br> sed do
 									eiusmod tempor incididunt
 								</p>
-								<h2>Price &euro;</h2>
+								<h2>Preço &euro;</h2>
 								<button id="btnRM" onclick="rmtxt()">VEJA MAIS</button>
 								<div id="readmore">
-									<h1>Car Name</h1>
+									<h1>Porshe</h1>
 									<p>
 										"Lorem ipsum dolor sit amet, consectetur ,<br> sed do
 										eiusmod tempor incididunt <br>"Lorem ipsum dolor sit
@@ -219,7 +219,7 @@
 										consectetur1 sed do eiusmod tempor incididunt"Lorem ipsum
 										dolor sit amet, consectetur1<br>
 									</p>
-									<button id="btnRL">ALUGAR</button>
+									<button id="btnRL">VER MENOS</button>
 								</div>
 							</div>
 						</div>
@@ -250,7 +250,8 @@
 										consectetur1 sed do eiusmod tempor incididunt"Lorem ipsum
 										dolor sit amet, consectetur1<br>
 									</p>
-									<button id="btnRL2">ALUGAR</button>
+									<button id="btnRL2">VER MENOS</button>
+									
 								</div>
 							</div>
 						</div>

@@ -13,19 +13,21 @@ import org.itstep.aluguel.model.Cliente;
 
 @Path("/cliente")
 public class ClienteController {
-
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("{codigo}")
-	public Cliente buscaCliente(@Context HttpHeaders heepHeaders, @PathParam("codigo") Integer codigo) {
-
+	public Cliente buscaCliente(@Context HttpHeaders httpHeaders,
+			                  @PathParam("codigo") Integer codigo) {
+		
 		Cliente cliente = new Cliente();
 		ClienteFacade clienteFacade = new ClienteFacade();
-
+		
 		cliente = clienteFacade.buscaCliente(codigo);
-
+				
 		return cliente;
-
+		
 	}
-
+	
+	
 }

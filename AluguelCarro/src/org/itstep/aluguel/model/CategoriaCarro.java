@@ -1,17 +1,20 @@
 package org.itstep.aluguel.model;
 
-public class Categoria {
-
-	private Integer codigo;
+public class CategoriaCarro {
+	
+	
+	//Atributos da Classe
+	private Integer codCategoria;
 	private String descricao;
 	
-	public Integer getCodigo() {
-		return codigo;
-	}
-	public void setCodigo(Integer codigo) {
-		this.codigo = codigo;
-	}
 	
+	//Getters and Setters
+	public Integer getCodigo() {
+		return codCategoria;
+	}
+	public void setCodCategoria(Integer codCategoria) {
+		this.codCategoria = codCategoria;
+	}
 	public String getDescricao() {
 		return descricao;
 	}
@@ -21,4 +24,5 @@ public class Categoria {
 	
 	
 	
+
 }

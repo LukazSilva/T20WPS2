@@ -1,22 +1,22 @@
 package org.itstep.aluguel.model;
 
 public class Telefone {
-	
+
+	//Atributos
 	private Integer ddi;
 	private Integer ddd;
 	private Integer numero;
-	private String ramal;
-	private String tipoTel; //celular ou fixo
-	private String tipoRC; //residencial ou comercial
+	private String  ramal;
+	private String  tipoTel; //Celular ou Fixo
+	private String  tipoRC; //Residencial ou Comercial
 	
-	
+	//Getter and Setter
 	public Integer getDdi() {
 		return ddi;
 	}
 	public void setDdi(Integer ddi) {
 		this.ddi = ddi;
 	}
-	
 	
 	public Integer getDdd() {
 		return ddd;
@@ -25,14 +25,12 @@ public class Telefone {
 		this.ddd = ddd;
 	}
 	
-	
 	public Integer getNumero() {
 		return numero;
 	}
 	public void setNumero(Integer numero) {
 		this.numero = numero;
 	}
-	
 	
 	public String getRamal() {
 		return ramal;
@@ -41,7 +39,6 @@ public class Telefone {
 		this.ramal = ramal;
 	}
 	
-	
 	public String getTipoTel() {
 		return tipoTel;
 	}
@@ -49,13 +46,13 @@ public class Telefone {
 		this.tipoTel = tipoTel;
 	}
 	
-	
 	public String getTipoRC() {
 		return tipoRC;
 	}
 	public void setTipoRC(String tipoRC) {
 		this.tipoRC = tipoRC;
 	}
+		
 	
-
+	
 }

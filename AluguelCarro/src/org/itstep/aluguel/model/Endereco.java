@@ -1,7 +1,8 @@
 package org.itstep.aluguel.model;
 
 public class Endereco {
-	
+
+	//Atributos
 	private String logradouro;
 	private String numero;
 	private String complemento;
@@ -10,14 +11,13 @@ public class Endereco {
 	private String uf;
 	private String cep;
 	
-	
+	//Getter and Setter
 	public String getLogradouro() {
 		return logradouro;
 	}
 	public void setLogradouro(String logradouro) {
 		this.logradouro = logradouro;
 	}
-	
 	
 	public String getNumero() {
 		return numero;
@@ -26,14 +26,12 @@ public class Endereco {
 		this.numero = numero;
 	}
 	
-	
 	public String getComplemento() {
 		return complemento;
 	}
 	public void setComplemento(String complemento) {
 		this.complemento = complemento;
 	}
-	
 	
 	public String getBairro() {
 		return bairro;
@@ -42,7 +40,6 @@ public class Endereco {
 		this.bairro = bairro;
 	}
 	
-	
 	public String getCidade() {
 		return cidade;
 	}
@@ -50,14 +47,12 @@ public class Endereco {
 		this.cidade = cidade;
 	}
 	
-	
 	public String getUf() {
 		return uf;
 	}
 	public void setUf(String uf) {
 		this.uf = uf;
 	}
-	
 	
 	public String getCep() {
 		return cep;
@@ -67,5 +62,5 @@ public class Endereco {
 	}
 	
 	
-
+	
 }
