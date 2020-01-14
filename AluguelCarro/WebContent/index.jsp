@@ -64,15 +64,15 @@
 						</ul></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">REVENDEDORES <span class="caret"></span></a>
+						aria-expanded="false">ALUGUEIS <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdowncostume">
-							<li><a href="#">1</a></li>
+							<li><a href="aluguel_carro_economico.jsp">Econômicos</a></li>
 							<li><a href="#">2</a></li>
 							<li><a href="3">3</a></li>
 						</ul></li>
 					<li><a href="contact.html">CONTATO</a></li>
 					<button>
-						<span class="postnewcar">POST NEW CAR</span>
+						<span class="postnewcar">PUBLICAR CARRO</span>
 					</button>
 				</ul>
 			</div>
@@ -188,8 +188,8 @@
 	<div class="allcontain">
 		<div class="feturedsection">
 			<h1 class="text-center">
-				<span class="bdots">&bullet;</span>F E A T U R E S<span
-					class="carstxt">C A R S</span>&bullet;
+				<span class="bdots">&bullet;</span>MELHORES<span
+					class="carstxt">CARROS</span>&bullet;
 			</h1>
 		</div>
 		<div class="feturedimage">
@@ -260,7 +260,7 @@
 		</div>
 		<!-- ________________________LATEST CARS SECTION _______________________-->
 		<div class="latestcars">
-			<h1 class="text-center">&bullet; LATEST CARS &bullet;</h1>
+			<h1 class="text-center">&bullet; CARROS MAIS RECENTES &bullet;</h1>
 			<ul class="nav nav-tabs navbar-left latest-navleft">
 				<li role="presentation" class="li-sortby"><span class="sortby">ORDENAR
 						POR: </span></li>
@@ -575,18 +575,16 @@
 		<div class="newslettercontent">
 			<div class="leftside">
 				<img src="image/border.png" alt="border">
-				<h1>NEWSLETTER</h1>
-				<p>
-					Subscribe to the COLLECTIONCARS mailing list to <br> receive
-					updates on new arrivals, special offers <br> and other
-					discount information.
+				<h1>Boletim Informativo</h1>
+				<p>Inscreva-se para receber atualizações sobre carros
+					recém-chegados, ofertas especiais e outras informações de desconto.
 				</p>
 			</div>
 			<div class="rightside">
 				<img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
 				<input type="text" class="form-control" id="subemail"
 					placeholder="EMAIL">
-				<button>SUBSCRIBE</button>
+				<button>Inscreva-se</button>
 			</div>
 		</div>
 		<!-- ______________________________________________________Bottom Menu ______________________________-->
@@ -597,11 +595,11 @@
 					class="dotlogo">&bullet;;</span>
 			</div>
 			<ul class="nav nav-tabs bottomlinks">
-				<li role="presentation"><a href="#/" role="button">ABOUT US</a></li>
-				<li role="presentation"><a href="#/">CATEGORIES</a></li>
-				<li role="presentation"><a href="#/">PREORDERS</a></li>
-				<li role="presentation"><a href="#/">CONTACT US</a></li>
-				<li role="presentation"><a href="#/">RECEIVE OUR NEWSLETTER</a></li>
+				<li role="presentation"><a href="#/" role="button">SOBRE NÓS</a></li>
+				<li role="presentation"><a href="#/">CATEGORIAS</a></li>
+				<li role="presentation"><a href="#/">PRÉ-ENCOMENDAS</a></li>
+				<li role="presentation"><a href="#/">ENTRE EM CONTATO</a></li>
+				<li role="presentation"><a href="#/">BOLETIM INFORMATIVO</a></li>
 			</ul>
 			<p>
 				"Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor
