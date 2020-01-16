@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 $.ajax({
 	type : "GET",
-	url : "http://viacep.com.br/ws/21311282/json",
+	url : "http://localhost:9080/AluguelCarro/aluguelRest/aluguel_carro_economico/",
 	cache : false,
 	async : false,
 	dataType : 'json',
