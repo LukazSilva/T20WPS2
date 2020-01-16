@@ -16,7 +16,7 @@ public class CarroFacade {
 		try {
 			JdbcDAOFactory jdbc = new JdbcDAOFactory();
 
-			String sql = "SELECT COD_CARRO,ANO, CHASSI, COR, MODELO, FABRICANTE, PLACA FROM T20WPS2.tb_carro";
+			String sql = "SELECT C_CODIGO, C_ANO, C_CHASSI, C_COR, C_MODELO, C_MARCA, C_PLACA FROM T20WPS2.CARRO";
 
 			PreparedStatement ps = jdbc.getConexao().prepareStatement(sql);
 
@@ -26,13 +26,13 @@ public class CarroFacade {
 
 				if (rs.getInt("COD_CARRO") == codCarro) {
 
-					carro.setCodCarro(rs.getInt("COD_CARRO"));
-					carro.setModelo(rs.getString("MODELO"));
-					carro.setFabricante(rs.getString("FABRICANTE"));
-					carro.setAno(rs.getString("ANO"));
-					carro.setChassi(rs.getString("CHASSI"));
-					carro.setPlaca(rs.getString("PLACA"));
-					carro.setCor(rs.getString("COR"));
+					carro.setCodCarro(rs.getInt("C_CODIGO"));
+					carro.setModelo(rs.getString("C_MODELO"));
+					carro.setMarca(rs.getString("C_MARCA"));
+					carro.setAno(rs.getString("C_ANO"));
+					carro.setChassi(rs.getString("C_CHASSI"));
+					carro.setPlaca(rs.getString("C_PLACA"));
+					carro.setCor(rs.getString("C_COR"));
 				}
 			}
 
