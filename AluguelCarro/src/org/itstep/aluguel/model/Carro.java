@@ -2,7 +2,6 @@ package org.itstep.aluguel.model;
 
 public class Carro {
 
-	// Atributos da Classe
 	private Integer codCarro;
 	private String marca;
 	private String modelo;
@@ -13,7 +12,6 @@ public class Carro {
 	private CategoriaCarro categoria;
 	private TabelaPreco tbPreco;
 
-	// Getters and Setters
 
 	public Integer getCodCarro() {
 		return codCarro;
